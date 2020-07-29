@@ -3,7 +3,7 @@
 // PARAMETERS for this pipeline:
 // SCRATCH = true (don't push to Quay) or false (do push to Quay)
 
-def buildNode = "rhel7-releng" // node label
+def buildNode = "ppc64le-rhel7-beaker" // node label
 def JOB_BRANCH = "master" // not currently used to differentiate job URLs
 
 timeout(360) {
