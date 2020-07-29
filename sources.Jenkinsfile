@@ -89,7 +89,7 @@ timeout(180) {
             extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: "crw-theia"]], 
             submoduleCfg: [], 
             userRemoteConfigs: [[url: "https://github.com/redhat-developer/codeready-workspaces-theia.git"]]])
-          installNPM(nodeVersion)
+          //installNPM(nodeVersion)
 
           def buildLog = ""
 
