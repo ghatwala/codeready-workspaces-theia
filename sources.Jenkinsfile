@@ -8,7 +8,7 @@
 // USE_PUBLIC_NEXUS = true or false (if true, don't use https://repository.engineering.redhat.com/nexus/repository/registry.npmjs.org)
 // SCRATCH = true (don't push to Quay) or false (do push to Quay)
 
-def buildNode = "rhel7-releng" // node label
+def buildNode = "ppc64le-rhel7-beaker" // node label
 
 // DO NOT CHANGE THIS until a newer version exists in ubi images used to build crw-theia, or build will fail.
 def nodeVersion = "10.19.0"
